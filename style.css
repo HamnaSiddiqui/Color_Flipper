@@ -3,17 +3,45 @@
     padding: 0;
 }
 header{
-    background-color: aliceblue;
-    height: 4em;
+    background-color: cyan;
+    height: 10vh;
+    width: 101%;
 }
-.nav-center{
+.center{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
 }
 h1{
-    display: inline-flex;
     font-size: 2em;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-size: 3vh;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    background-color: green;
+    width: 101%;
+    height: 100%;
+}
+#btn{
+    width: 20%;
+    height: 10vh;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 12px;
+    margin: 350px 550px;
 }
